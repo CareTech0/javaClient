@@ -4,58 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de42f35-27f9-4b07-8feb-7c66a12b14c5" name="Changes" comment="" />
+    <list default="true" id="1f6fc87a-e9e2-4ec5-8204-401c3f6535ac" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="2dFC48ewDOginWvNxiUB9g18xKn" />
+  <component name="ProjectId" id="2dvTqS93laGYy5UovmSIWgJuHOF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.InterfaceCliente.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/thawanbruno/IdeaProjects/grupoPi/javaClient"
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="javaClient" />
+    <configuration name="InterfaceCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfaceCliente" />
+      <module name="cliente-java-caretech" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="javaClient" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InterfaceCliente" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3de42f35-27f9-4b07-8feb-7c66a12b14c5" name="Changes" comment="" />
-      <created>1709594245568</created>
+      <changelist id="1f6fc87a-e9e2-4ec5-8204-401c3f6535ac" name="Changes" comment="" />
+      <created>1710887743767</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709594245568</updated>
+      <updated>1710887743767</updated>
     </task>
     <servers />
   </component>

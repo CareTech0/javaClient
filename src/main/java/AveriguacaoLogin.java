@@ -1,9 +1,8 @@
-package org.example;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class AveriguacaoDeLogin {
+public class AveriguacaoLogin {
+
     public String verificarLogin(String user, String senha) {
         if (user != null || !user.isEmpty() && senha != null || !senha.isEmpty()) {
             return buscarNoBanco(user, senha);
@@ -48,4 +47,5 @@ public class AveriguacaoDeLogin {
             default -> "Erro desconhecido!!!";
         };
     }
+
 }
