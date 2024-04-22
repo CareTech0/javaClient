@@ -1,19 +1,21 @@
-import com.github.britooo.looca.api.group.discos.Disco;
-import com.github.britooo.looca.api.group.discos.DiscoGrupo;
 
+import model.Usuario;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+import repository.Conexao;
 import java.util.List;
 import java.util.Scanner;
 
 public class InterfaceCliente {
-
     public static void main(String[] args) {
         String statusDaVerificacao = "";
+        Conexao conexao = new Conexao();
+        JdbcTemplate con = conexao.getConexaoDoBanco();
 
         do{
             System.out.println("--------------------------------------------------------");
             System.out.println("||||||||||||||||     Login no Client     |||||||||||||||");
             System.out.println("--------------------------------------------------------");
-            AveriguacaoLogin verificacao = new AveriguacaoLogin();
 
             Scanner input = new Scanner(System.in);
             System.out.println("User: ");
@@ -21,7 +23,21 @@ public class InterfaceCliente {
             System.out.println("Senha: ");
             String senha = input.nextLine();
 
-            statusDaVerificacao = verificacao.verificarLogin(user, senha);
+            List<Usuario> usuarios = con.query(
+                "SELECT * FROM usuario WHERE email = '%s' AND senha = '%s'".formatted(user, senha),
+                new BeanPropertyRowMapper<>(Usuario.class)
+            );
+            Integer i = 0;
+            while (i < usuarios.size()){
+                i++;
+            }
+
+            if (i == 1){
+                statusDaVerificacao = "Login Realizado com Sucesso!!!";
+            } else {
+                statusDaVerificacao = "Login ou senha inválidos!!!";
+            }
+
             System.out.println(statusDaVerificacao);
         } while(!statusDaVerificacao.equals("Login Realizado com Sucesso!!!"));
 
