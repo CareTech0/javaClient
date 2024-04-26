@@ -7,6 +7,10 @@
     <list default="true" id="1f6fc87a-e9e2-4ec5-8204-401c3f6535ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InterfaceCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterfaceCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MemoriaRam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MemoriaRam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InterfaceCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterfaceCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MemoriaRam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MemoriaRam.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.InterfaceCliente.executor": "Run",
-    "Application.TesteEmpresa.executor": "Run",
-    "Maven.cliente-java-caretech [clean].executor": "Run",
-    "Maven.cliente-java-caretech [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mathe/OneDrive/Área de Trabalho/SPTech/2 semestre/CareTech/javaClient",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.InterfaceCliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteEmpresa.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cliente-java-caretech [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cliente-java-caretech [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mathe/OneDrive/Área de Trabalho/SPTech/2 semestre/CareTech/javaClient&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />

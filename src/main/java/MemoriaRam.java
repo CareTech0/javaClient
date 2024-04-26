@@ -1,4 +1,5 @@
 import com.github.britooo.looca.api.core.Looca;
+import com.github.britooo.looca.api.group.janelas.Janela;
 import com.github.britooo.looca.api.group.processos.Processo;
 import com.github.britooo.looca.api.group.processos.ProcessoGrupo;
 
@@ -8,7 +9,7 @@ public class MemoriaRam {
     private Double usoRam;
     private Double totalRam;
     private Integer qtdProcessos;
-    private List<Processo> processos;
+    private List<Janela> processos;
 
     public MemoriaRam() {
 
@@ -33,10 +34,10 @@ public class MemoriaRam {
         return qtdProcessos;
     }
 
-    public List<Processo> buscarProcessos(){
+    public List<Janela> buscarProcessos(){
         Looca looca = new Looca();
-        ProcessoGrupo grupoDeProcessos = looca.getGrupoDeProcessos();
-        processos = grupoDeProcessos.getProcessos();
+        System.out.println(looca.getGrupoDeJanelas().getJanelas());
+        processos = looca.getGrupoDeJanelas().getJanelas();
         return processos;
     }
 }

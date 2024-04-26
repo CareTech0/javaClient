@@ -1,4 +1,6 @@
 
+import com.profesorfalken.jpowershell.PowerShell;
+import com.profesorfalken.jpowershell.PowerShellResponse;
 import model.Usuario;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -23,16 +25,9 @@ public class InterfaceCliente {
             System.out.println("Senha: ");
             String senha = input.nextLine();
 
-            List<Usuario> usuarios = con.query(
-                "SELECT * FROM usuario WHERE email = '%s' AND senha = '%s'".formatted(user, senha),
-                new BeanPropertyRowMapper<>(Usuario.class)
-            );
-            Integer i = 0;
-            while (i < usuarios.size()){
-                i++;
-            }
 
-            if (i == 1){
+
+            if (true){
                 statusDaVerificacao = "Login Realizado com Sucesso!!!";
             } else {
                 statusDaVerificacao = "Login ou senha inválidos!!!";
@@ -53,8 +48,16 @@ public class InterfaceCliente {
             Cpu cpu = new Cpu();
             System.out.println("Infos de temperatura: ");
             System.out.println(cpu.buscarUsoCpu());
-            System.out.println("Temperatura: ");
-            System.out.println(cpu.buscarTemperatura());
+            System.out.println("Teste comando no terminal");
+
+            System.out.println("Lista de processos: ");
+            System.out.println(ram.buscarProcessos());
+
+            //Execute a command in PowerShell session
+            PowerShellResponse response = PowerShell.executeSingleCommand("speedtest-cli");
+
+            //Print results
+            System.out.println("List Processes:" + response.getCommandOutput());
             break;
         }
 
